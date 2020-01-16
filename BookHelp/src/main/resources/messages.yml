@@ -1,0 +1,9 @@
+command:
+  bookhelp:
+    usage: "&3Usage: /{0} <topic>"
+    playerOnly: "&cThis command can only be used by a player."
+    failureInvalid: "&cInvalid help topic `&4{0}`&c."
+  register:
+    usage: "&3Usage: /{0} <name>"
+    playerOnly: "&cThis command can only be used by a player."
+    failureInvalid: "&cItem must be a signed book."

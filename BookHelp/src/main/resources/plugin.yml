@@ -1,0 +1,17 @@
+name: BookHelp
+main: net.republicmc.bookhelp.BookHelp
+version: 0.0.1
+author: snowman_am2
+depend: [ProtocolLib]
+commands:
+  bookhelp:
+    description: Show help in a book format
+    usage: /bookhelp <command>
+    permission: bookhelp.bookhelp
+    permission-message: You don't have permission to do that.
+  bookhelpregister:
+    description: Register a book as a help document
+    usage: /bookhelpregister <command>
+    permission: bookhelp.bookhelpregister
+    permission-message: You don't have permission to do that.
+
